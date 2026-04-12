@@ -1,0 +1,204 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>YJing Privacy Policy</title>
+  <meta name="description" content="YJing Privacy Policy">
+  <style>
+    :root {
+      color-scheme: light dark;
+      --bg: #ffffff;
+      --fg: #111827;
+      --muted: #6b7280;
+      --line: #e5e7eb;
+      --accent: #f97316;
+      --card: #ffffff;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #0b1220;
+        --fg: #e5e7eb;
+        --muted: #9ca3af;
+        --line: #1f2937;
+        --accent: #fb923c;
+        --card: #111827;
+      }
+    }
+
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: linear-gradient(180deg, var(--bg) 0%, color-mix(in srgb, var(--bg) 92%, var(--accent)) 100%);
+      color: var(--fg);
+      line-height: 1.75;
+    }
+
+    .wrap {
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 40px 20px 72px;
+    }
+
+    .card {
+      background: color-mix(in srgb, var(--card) 92%, transparent);
+      border: 1px solid var(--line);
+      border-radius: 20px;
+      padding: 32px 24px;
+      backdrop-filter: blur(10px);
+    }
+
+    h1, h2, h3 { line-height: 1.3; }
+    h1 {
+      margin: 0 0 12px;
+      font-size: clamp(2rem, 4vw, 2.8rem);
+    }
+    h2 {
+      margin-top: 2rem;
+      font-size: 1.4rem;
+      border-top: 1px solid var(--line);
+      padding-top: 1.25rem;
+    }
+    h3 {
+      margin-top: 1.25rem;
+      font-size: 1.05rem;
+    }
+    p, ul { margin: 0.8rem 0; }
+    ul { padding-left: 1.25rem; }
+    li + li { margin-top: 0.35rem; }
+    .meta {
+      color: var(--muted);
+      margin-bottom: 1.5rem;
+    }
+    a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+    a:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <article class="card">
+      <h1>YJing Privacy Policy</h1>
+      <p class="meta">Effective date: 2026-04-12</p>
+
+      <p>YJing is an iOS app for privately importing, organizing, browsing, and protecting photos, videos, and other files on your device. We take a local-first approach whenever possible.</p>
+      <p>This Privacy Policy explains what information may be processed when you use YJing, how that information is used, and how to contact us.</p>
+
+      <h2>1. Information We Process</h2>
+
+      <h3>1.1 Content You Import or Manage in the App</h3>
+      <p>When you use YJing, you may import, browse, organize, or transfer:</p>
+      <ul>
+        <li>Photos, videos, PDFs, and other files</li>
+        <li>Folder structures, favorites, and hidden-file markers</li>
+        <li>Results of actions you initiate, such as move, copy, delete, and rename</li>
+      </ul>
+      <p>This content is primarily stored in the app sandbox on your device and is used to provide file management, browsing, search, thumbnail display, favorites, hidden-file handling, and local network transfer features.</p>
+
+      <h3>1.2 Security and Privacy Data</h3>
+      <p>If you enable security features, the app may process:</p>
+      <ul>
+        <li>Hashes of your PIN or gesture password, together with a random salt</li>
+        <li>Lock state, auto-lock duration, and failed-attempt cooldown state</li>
+        <li>Face ID or other biometric authentication results</li>
+      </ul>
+      <p>PINs and gestures are not stored in plain text. They are stored as hashes in Apple Keychain. Face ID and biometric verification are handled by Apple system frameworks, and we do not receive or store your facial data.</p>
+
+      <h3>1.3 Local Preferences</h3>
+      <p>To remember your settings, the app may store certain preferences locally, including:</p>
+      <ul>
+        <li>Theme, language, sort order, and view preferences</li>
+        <li>Privacy preferences, such as whether hidden files are shown</li>
+        <li>Shake gesture preferences</li>
+        <li>Favorites, hidden-file metadata, and limited UI state</li>
+      </ul>
+      <p>This information is primarily stored locally on your device using UserDefaults, JSON files, or Apple Keychain.</p>
+
+      <h3>1.4 Local Wi-Fi Transfer Information</h3>
+      <p>If you choose to enable the Wi-Fi Transfer feature, the app temporarily starts a local service on your device so that a browser on the same local network can access and manage files.</p>
+      <p>In that case, the app may process:</p>
+      <ul>
+        <li>Your device's local network address and port</li>
+        <li>A one-time login PIN</li>
+        <li>A local cookie used to maintain the current local session</li>
+        <li>Upload, download, browsing, and file-management requests initiated from your browser</li>
+      </ul>
+      <p>This feature is only available when you turn it on manually. The service runs on your device and is not proxied through servers operated by us.</p>
+
+      <h3>1.5 Subscription and In-App Purchase Information</h3>
+      <p>If you purchase a subscription, restore purchases, or check entitlement status in the app, Apple and our subscription service provider RevenueCat may process purchase-related information such as:</p>
+      <ul>
+        <li>App Store receipts and transaction status</li>
+        <li>Product identifiers, subscription status, and entitlement status</li>
+        <li>An anonymous App User ID or similar identifier used to determine purchase status</li>
+        <li>Minimum information needed to restore purchases</li>
+      </ul>
+      <p>This information is used to:</p>
+      <ul>
+        <li>Verify whether you have an active subscription or entitlement</li>
+        <li>Support restore purchases</li>
+        <li>Show your premium status correctly on your device</li>
+        <li>Handle basic subscription operations and support troubleshooting</li>
+      </ul>
+      <p>We do not require you to create a separate account solely to use subscriptions unless a future feature explicitly requires it.</p>
+
+      <h2>2. How We Use Information</h2>
+      <p>We process the information above to:</p>
+      <ul>
+        <li>Provide file import, browsing, organization, search, playback, and transfer features</li>
+        <li>Provide privacy and security features such as hidden files, lock screen protection, PIN/gesture/Face ID unlock, and related settings</li>
+        <li>Save your preferences and in-app configuration</li>
+        <li>Provide subscription purchases, entitlement validation, and restore purchases</li>
+        <li>Support necessary troubleshooting, customer support, and security protection</li>
+      </ul>
+
+      <h2>3. How Information Is Shared</h2>
+      <p>We do not sell your photos, videos, or file content to third parties.</p>
+      <p>The following third parties may process limited information in specific cases:</p>
+      <ul>
+        <li><strong>Apple</strong>: when you use Apple features such as Face ID, App Store purchases, iCloud or system backups, the Photos picker, or the Files picker, Apple may process information under its own privacy policy.</li>
+        <li><strong>RevenueCat</strong>: when you use subscription, purchase, or restore-purchase features, RevenueCat may process limited information on our behalf for subscription verification and entitlement management.</li>
+      </ul>
+      <p>Other than the cases above, your file content is generally not sent to servers operated by us. YJing's core media management features are designed to work locally on your device.</p>
+
+      <h2>4. Storage and Retention</h2>
+      <ul>
+        <li>Imported files and related metadata are generally stored locally on your device.</li>
+        <li>Security credential hashes are stored in Apple Keychain.</li>
+        <li>Preferences and feature metadata are stored locally on the device.</li>
+        <li>Subscription-related data may also be retained by Apple and RevenueCat under their own retention policies.</li>
+      </ul>
+      <p>As long as you continue using the app, relevant local data may remain on your device. If you delete content, disable features, or uninstall the app, some local data may be removed. However, system backups and data retained by Apple or RevenueCat may remain subject to their own policies.</p>
+
+      <h2>5. Your Choices</h2>
+      <p>You can manage your information by:</p>
+      <ul>
+        <li>Deleting files, favorites, or hidden markers in the app</li>
+        <li>Enabling, disabling, or adjusting PIN, gesture, Face ID, and auto-lock settings</li>
+        <li>Turning off the Wi-Fi Transfer feature</li>
+        <li>Managing, canceling, or restoring subscriptions through the App Store</li>
+        <li>Uninstalling the app to remove most data stored locally on your device</li>
+      </ul>
+
+      <h2>6. Children's Privacy</h2>
+      <p>YJing is not specifically directed to children. If you believe a minor has provided inappropriate information in connection with the app, please contact us using the details below.</p>
+
+      <h2>7. International Users</h2>
+      <p>If local law in your region grants additional disclosure requirements or privacy rights, you may contact us and we will handle applicable requests as required.</p>
+
+      <h2>8. Changes to This Privacy Policy</h2>
+      <p>We may update this Privacy Policy from time to time to reflect feature changes, legal requirements, or service changes. The updated version will become effective on the new effective date. If a change is material, we may provide additional notice where appropriate.</p>
+
+      <h2>9. Contact</h2>
+      <p>If you have questions about this Privacy Policy, contact:</p>
+      <ul>
+        <li>Email: <a href="mailto:yjingspace@gmail.com">yjingspace@gmail.com</a></li>
+      </ul>
+    </article>
+  </main>
+</body>
+</html>
